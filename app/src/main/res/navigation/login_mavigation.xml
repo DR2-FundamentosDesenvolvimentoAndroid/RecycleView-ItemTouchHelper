@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_mavigation"
+    app:startDestination="@id/acessoFragment">
+
+    <fragment
+        android:id="@+id/acessoFragment"
+        android:name="com.example.ep7ld.AcessoFragment"
+        android:label="fragment_acesso"
+        tools:layout="@layout/fragment_acesso" />
+    <fragment
+        android:id="@+id/cadastroFragment"
+        android:name="com.example.ep7ld.CadastroFragment"
+        android:label="fragment_cadastro"
+        tools:layout="@layout/fragment_cadastro" />
+</navigation>
